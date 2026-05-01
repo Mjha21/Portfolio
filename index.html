@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Megha Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body class="dark">
+  <header>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-right">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <section class="hero" id="home">
+    <!-- LEFT CONTENT -->
+    <div class="glass-card">
+      <h1 class="name">Hi! I'm Megha Jha</h1>
+      <p id="intro">
+        A Computer Science student passionate about building modern web
+        applications and exploring <span id="typing"></span>. I enjoy turning
+        ideas into real-world projects using technologies like HTML, CSS,
+        JavaScript, and Flask.
+      </p>
+    </div>
+    <div class="logo-container">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png"
+        class="logo l1" />
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/500px-CSS3_logo_and_wordmark.svg.png"
+        class="logo l2" />
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
+        class="logo l3" />
+      <img src="flask-dark.png" class="logo l4 flask-logo" />
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/3840px-Python-logo-notext.svg.png"
+        class="logo l5" />
+      <img src="C_Logo.png" class="logo l6" />
+    </div>
+  </section>
+  <section id="about">
+    <div class="glass-card2">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="Slide1_page-0001.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="Slide2_page-0001.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="slide3_page-0001.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="slide4_page-0001.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="slide5_page-0001.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="slide6_page-0001.jpg" />
+          </div>
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="skills-container">
+
+      <h2 class="section-title">My Skills</h2>
+
+      <div class="skills-grid">
+
+        <!-- Skill Card -->
+        <div class="skill-card">
+          <h3 style="font-size:33px;">Frontend</h3>
+          <div class="skill-bar">
+            <span>HTML</span>
+            <div class="progress">
+              <div style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <span>CSS</span>
+            <div class="progress">
+              <div style="width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <span>JavaScript</span>
+            <div class="progress">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <span>TailwindCSS</span>
+            <div class="progress">
+              <div style="width: 89%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill Card -->
+        <div class="skill-card">
+          <h3 style="font-size: 33px;">Backend</h3>
+          <div class="skill-bar">
+            <span>Python</span>
+            <div class="progress">
+              <div style="width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <span>Flask</span>
+            <div class="progress">
+              <div style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <span>sqlite3</span>
+            <div class="progress">
+              <div style="width: 78%"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Skill Card -->
+        <div class="skill-card">
+          <h3 style="font-size: 33px;">Tools</h3>
+          <div class="skill-bar">
+            <span>Git & GitHub</span>
+            <div class="progress">
+              <div style="width: 80%"></div>
+            </div>
+            <span>Bootsrap</span>
+            <div class="progress">
+              <div style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3 style="font-size: 33px;">Other Skills</h3>
+          <div class="skill-bar">
+            <span>Powerpoint Presentation</span>
+            <div class="progress">
+              <div style="width: 88%"></div>
+            </div>
+            <div class="skill-bar">
+              <span>MS Word</span>
+              <div class="progress">
+                <div style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <span>Excel</span>
+              <div class="progress">
+                <div style="width: 92%"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <span>Communicaton Skill</span>
+              <div class="progress">
+                <div style="width: 95%"></div>
+              </div>
+            </div>
+          </section>
+  <section id="education">
+
+    <h2 class="section-title">Education</h2>
+
+    <div class="timeline">
+      <div class="edu-card">
+        <div class="dot"></div>
+        <div class="content">
+          <h3 style="font-size: 25px;">Class 10th (CBSE)</h3>
+          <p class="college">Jharkhand Public School</p>
+          <span class="year">2021-2022</span>
+          <p class="desc">
+            Completed my Matriculation from CBSE Board, Jharkhand
+            Public School and got 88%.
+          </p>
+        </div>
+      </div>
+      <div class="edu-card">
+        <div class="dot"></div>
+        <div class="content">
+          <h3 style="font-size: 25px;">Diploma in Computer
+            Science</h3>
+          <p class="college">Government Women's Polytechnic Bokaro</p>
+          <span class="year">2022 - 2025</span>
+          <p class="desc">
+            Focused on web development, programming, and real-world
+            projects.
+          </p>
+        </div>
+      </div>
+
+      <div class="edu-card">
+        <div class="dot"></div>
+        <div class="content">
+          <h3 style="font-size: 25px;">B.tech in Computer Science
+            Engineering</h3>
+          <p class="college">DPG Degree College, Gurugram</p>
+          <span class="year">2026 - 2029</span>
+          <p class="desc">
+            Currently pursuing B.tech in Computer Science Engineering
+            Trade and improving my skills together and building
+            projects.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+
+    <h2 class="project-title">Projects</h2>
+
+    <div class="project-container">
+
+      <!-- PROJECT 1 -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt>
+        </div>
+
+        <div class="project-content">
+          <h3 style="font-size: 30px;">Portfolio Website</h3>
+          <p style="font-size: 18px;">
+            A personal portfolio website with modern UI, Premium Look
+            using HTML, CSS and JavaScript.
+          </p>
+
+          <div class="project-buttons">
+            <a href="https://github.com/Mjha21/Portfolio.git" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://saryuseatingco.pythonanywhere.com/static/images/Saryu_logo.webp" alt>
+        </div>
+
+        <div class="project-content">
+          <h3 style="font-size: 30px;">Website for Saryu Seating
+            Co.</h3>
+          <p style="font-size: 18px;">
+            Website Developed for Saryu Seating Co., The languages
+            used are: HTML, CSS, JavaScript, Flask, sqlite3 etc.
+          </p>
+          <div class="project-buttons">
+            <a href="https://saryuseatingco.pythonanywhere.com/" target="_blank">Live url</a>
+            <a href="https://github.com/Mjha21/SaryuSeatimgCo..git" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://miro.medium.com/1*_Qf8iJHMbh-4cHUhGlxNMQ.png" alt>
+        </div>
+
+        <div class="project-content">
+          <h3 style="font-size: 30px;">Fake News Detection App</h3>
+          <p style="font-size: 18px;">
+            Android Application built using the Java Framework Kotlin
+            to Detect Where a New is Real or Fake with Prediction and
+            Confidence Percentage.
+          </p>
+          <div class="project-buttons">
+            <a href="https://github.com/Mjha21/fake-news-api.git" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://chat-gpt-clone-app-psi.vercel.app/_next/image?url=%2Fimages%2Fchatgpt.webp&w=640&q=75" alt>
+        </div>
+
+        <div class="project-content">
+          <h3 style="font-size: 30px;">ChatGPT Clone</h3>
+          <p style="font-size: 18px;">
+            Cloned ChatGPT UI and basic concept behind it, used HTML,
+            TailwindCSS, sqlite3, Flask and JavaScript.
+          </p>
+          <div class="project-buttons">
+            <a href="https://github.com/Mjha21/ChatGPTClone.git">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="project-card">
+        <div class="project-img">
+          <img
+            src="https://marketplace.canva.com/EAE72jfknRM/2/0/800w/canva-yellow-and-black-online-shop-business-logo-EsIyS2cpG3Q.jpg"
+            alt>
+        </div>
+        <div class="project-content">
+          <h3 style="font-size: 30px;">Shopping Website</h3>
+          <p style="font-size: 18px;">
+            As a part of my Educational Project I had developed
+            Shopping Website named it <b>Fashioneez</b>, So I do not
+            have the Github link but the Documentation is ready.
+            I had used HTML, CSS, JavaScript, Django Framework and
+            sqlite3 for the database storage.
+          </p>
+          <div class="project-buttons">
+            <a href="https://drive.google.com/file/d/1jd8l3hUXyu8TjPyBXCaRM8jIVHVdO8xH/view?usp=drive_link"
+              target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 5 -->
+      <div class="project-card">
+        <div class="project-img">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/021/040/389/small/to-do-list-icon-vector.jpg"
+            alt>
+        </div>
+        <div class="project-content">
+          <h3 style="font-size: 30px;">ToDo-List</h3>
+          <p style="font-size: 18px;">
+            As a part of mini project I made a ToDo-List Project which
+            will help track daily tasks and mark them done, undone,
+            delete and add new in list.
+            As it's a mini project it only has code which will rone in
+            the terminal, in future I will be adding its UI.
+          </p>
+          <div class="project-buttons">
+            <a href="https://github.com/Mjha21/todo_List_miniProject.git" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <footer>
+    <section id="contact">
+    <div class="contact-box">
+      <p>📧 mjha80925@gmail.com</p>
+      <p>📱 +91 9229974791</p>
+      <p>📍 India</p>
+    </div>
+    <div class="footer">
+      <p>© 2026 Megha Jha | All Rights Reserved</p>
+    </div>
+  </section>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
