@@ -271,7 +271,90 @@ body.light .flask-logo {
     border-color: transparent;
   }
 }
+/* ========================= */
+/* 📱 MOBILE (max-width: 768px) */
+/* ========================= */
+@media (max-width: 768px) {
 
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .glass-card {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+  }
+
+  .name {
+    font-size: 38px !important;
+  }
+
+  #intro {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  /* LOGO CONTAINER CENTER */
+  .logo-container {
+    width: 200px;
+    height: 200px;
+    margin: 40px auto 0;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+    top: 35%;
+    left: 35%;
+  }
+
+  /* Circle radius reduce */
+  .l1 { transform: rotate(0deg) translate(100px) rotate(0deg); }
+  .l2 { transform: rotate(60deg) translate(100px) rotate(-60deg); }
+  .l3 { transform: rotate(120deg) translate(100px) rotate(-120deg); }
+  .l4 { transform: rotate(180deg) translate(100px) rotate(-180deg); }
+  .l5 { transform: rotate(240deg) translate(100px) rotate(-240deg); }
+  .l6 { transform: rotate(300deg) translate(100px) rotate(-300deg); }
+}
+
+
+/* ========================= */
+/* 📲 TABLET (769px - 1024px) */
+/* ========================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .hero {
+    flex-direction: column;
+    padding: 100px 40px;
+  }
+
+  .glass-card {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 55px !important;
+  }
+
+  .logo-container {
+    margin: 50px auto 0;
+  }
+
+  /* Medium circle */
+  .l1 { transform: rotate(0deg) translate(130px) rotate(0deg); }
+  .l2 { transform: rotate(60deg) translate(130px) rotate(-60deg); }
+  .l3 { transform: rotate(120deg) translate(130px) rotate(-120deg); }
+  .l4 { transform: rotate(180deg) translate(130px) rotate(-180deg); }
+  .l5 { transform: rotate(240deg) translate(130px) rotate(-240deg); }
+  .l6 { transform: rotate(300deg) translate(130px) rotate(-300deg); }
+}
 #about {
   min-height: 80vh;
   display: flex;
@@ -350,7 +433,87 @@ body.light .flask-logo {
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease;
 }
+@media (max-width: 768px) {
 
+  /* ABOUT SECTION */
+  #about {
+    flex-direction: column;
+    padding: 60px 20px;
+  }
+
+  .glass-card2 {
+    height: auto; /* 🔥 sabse important fix */
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  /* SWIPER */
+  .swiper-slide {
+    height: 250px;
+  }
+
+  .swiper-slide img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* BUTTON SIZE */
+  .swiper-button-next,
+  .swiper-button-prev {
+    transform: scale(0.7);
+  }
+
+  /* SKILLS */
+  #skills {
+    padding: 60px 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr; /* 🔥 ek column */
+    gap: 20px;
+  }
+
+  .skill-card {
+    padding: 20px;
+  }
+
+  .skill-card h3 {
+    font-size: 22px !important;
+  }
+
+  .skill-bar span {
+    font-size: 16px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  #about {
+    padding: 80px 40px;
+  }
+
+  .glass-card2 {
+    height: auto;
+  }
+
+  .swiper-slide {
+    height: 350px;
+  }
+
+  /* SKILLS */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  #skills {
+    padding: 80px 40px;
+  }
+}
 .section-title:hover {
   transform: scale(1.1); /* zoom effect */
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
